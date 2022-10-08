@@ -1,2 +1,2 @@
 # SECweek1
-HTML and CSS excersises 
+HTML and CSS exercises
