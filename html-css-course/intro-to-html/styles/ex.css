@@ -1,3 +1,6 @@
+body {
+  padding-left: 250px;
+}
 .amazon-link:hover {
   color: rgb(185, 1, 1);
 }
@@ -113,6 +116,7 @@
   object-position: 20%;
   border-radius: 20px;
 }
+.cat-6,
 .cat-5,
 .cat-3 {
   width: 20px;
@@ -230,4 +234,209 @@
   display: grid;
   grid-template-columns: 100px 100px 100px;
   column-gap: 10px;
+}
+.cat-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.cat-info-flex-2,
+.cat-info-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cf-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 5px;
+}
+.cf-right {
+  margin-left: 25px;
+}
+.follow-button {
+  margin: 10px 6px;
+  border: none;
+  background-color: #1d77ff;
+  border-radius: 2px;
+  color: white;
+  font-family: Roboto;
+  font-size: 7px;
+  padding: 3px 5px;
+  font-weight: 500;
+}
+.cf-e,
+.cf-d,
+.cf-a,
+.cf-b,
+.cf-c {
+  font-family: roboto;
+  font-size: 7px;
+  margin: .5px;
+  color: grey;
+}
+.cf-a {
+  color: black;
+  font-weight: bold;
+}
+.cf-c {
+  font-size: 5px;
+}
+.cat-6 {
+  height: 24px;
+  width: 24px;
+}
+.header-purp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(103, 55, 190);
+}
+.text-purp {
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  margin: 9px 10px;
+  font-size: 10px;
+}
+.input-purp {
+  border: none;
+  border-radius: 50px;
+  margin: 7px 0px;
+  font-size: 7.5px;
+  width: 100%;
+  padding: 2px 10px;
+}
+.dl-purp {
+  border-color: white;
+  color: white;
+  background-color: rgb(103, 55, 190);
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px 10px;
+  margin-right: 5px;
+  font-size: 8px;
+  font-family: Roboto;
+  border-radius: 2px;
+  padding: 4px 8px;
+}
+.email-flex {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+}
+.inbox-header {
+  font-family: Roboto;
+  font-size: 6px;
+  margin: 4px 6px;
+  color: rgb(116, 116, 116);
+  margin-bottom: 8px;
+}
+.title-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9px;
+}
+.email-time {
+  font-family: Roboto;
+  font-size: 6px;
+  color: rgb(116, 116, 116);
+  margin: 6px;
+}
+.cat-info-flex-2 {
+  flex: 1;
+}
+.cf-d {
+  color: black;
+  font-weight: bold;
+  font-size: 6px;
+}
+.cf-e {
+  font-size: 6px;
+}
+.disc-flex {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 1;
+}
+.servers-flex {
+  width: 70px;
+  background-color: rgb(48, 48, 48);
+  height: 100%;
+}
+.server-3,
+.server-2,
+.server-1 {
+  width: 50px;
+  height: 50px;
+  object-fit:cover;
+  object-position: 25%;
+  border-radius: 100px;
+  vertical-align: middle;
+  margin: 15px 10px;
+  margin-bottom: 0;
+}
+.server-3,
+.server-2 {
+  margin-top: 10px;
+}
+.channels-flex {
+  background-color: rgb(61, 61, 61);
+  display: flex;
+  flex-direction: column;
+}
+.section-flex {
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+}
+.channel {
+  color: rgb(151, 151, 151);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 16px;
+}
+.section-a {
+  color: rgb(201, 201, 201);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 15px;
+}
+.section-b {
+  color: rgb(151, 151, 151);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin: 15px 15px;
+}
+.ad {
+  width: 320px;
+  height: 180px;
+  position: fixed;
+  background-color: grey;
+  bottom: 10px;
+  left: 10px;
+  z-index: 100;
+}
+.close-button {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: -10px;
+  left: -10px;
+}
+.ad-timer {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  padding: 4px 6px;
+  font-family: Roboto;
+  border-radius: 2px;
 }
