@@ -1,0 +1,233 @@
+.amazon-link:hover {
+  color: rgb(185, 1, 1);
+}
+.item-name {
+  font-weight: bold;
+  font-size: 26px;
+}
+.item-desc {
+  font-weight: bold;
+  color:rgb(26, 158, 0);
+}
+.add-to-cart {
+  height: 26px;
+  width: 100px;
+  border-radius: 13px;
+  background-color: rgb(255, 208, 0);
+  border: none;
+  font-size: 12;
+}
+.add-to-cart:hover {
+  background-color: rgb(255, 174, 0);
+}
+.add-to-cart:active {
+  opacity: .65;
+}
+.buy-now {
+  height: 26px;
+  width: 100px;
+  border-radius: 13px;
+  background-color: rgb(252, 122, 0);
+  border: none;
+  font-size: 12;
+}
+.buy-now:hover {
+  background-color: rgb(252, 80, 0);
+}
+.buy-now:active {
+  opacity: .65;
+}
+
+
+.stretch-button {
+  background-color: green;
+  color: white;
+  border:none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 10px;
+  transition: padding .35s;
+}
+.stretch-button:hover {
+  padding: 10px 24px;
+}
+.shadow-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 10px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.45);
+}
+.shadow-button:active {
+  margin: 2px 2px;
+  box-shadow: none;
+}
+.cash-value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.USD {
+  font-size: 10px;
+  color: rgb(100, 100, 100);
+}
+.stock-today {
+  color:green;
+  font-family: Arial;
+  font-size: 10px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+.stock-status {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: rgb(100, 100, 100);
+  margin-top: 4px;
+}
+.stock-val {
+  color: red;
+}
+.model-title {
+  font-family: Montserrat;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.order-text {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 10px;
+}
+.tl-text {
+  text-decoration: underline;
+}
+.cat-1 {
+  width: 200px;
+  border-radius: 10px;
+}
+.cat-2 {
+  width: 200px;
+  height: 200px;
+  object-fit:cover;
+  object-position: 20%;
+  border-radius: 20px;
+}
+.cat-5,
+.cat-3 {
+  width: 20px;
+  height: 20px;
+  object-fit:cover;
+  object-position: 25%;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+.tweet-box {
+  border:none;
+  vertical-align: middle;
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+}
+.tweet-button {
+  background-color: #1d9bf0;
+  color:white;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 7px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow .15s;
+  vertical-align: top;
+  padding: 4px 8px;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tweet-div {
+  padding: 4px 6px;
+  width: 160px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,.5);
+}
+.input-block {
+  display: block;
+}
+.input-fn,
+.input-ln,
+.input-email {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  font-size: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(88, 88, 88, 0.521);
+  padding: 6px 10px;
+}
+.newline {
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+.input-fn,
+.input-ln {
+  width: 60px;
+}
+.input-email {
+  margin-top: 4px;
+  width: 146px;
+}
+.signup-button {
+  border-radius: 6px;
+  background-color: #0066ff;
+  color: white;
+  border-width: 0px;
+  padding: 7px 67px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4px;
+  font-size: 9px;
+  font-weight: bold;
+}
+.profile-div {
+  margin-top: 20px;
+  box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+}
+.cat-4 {
+  width: 100px;
+  height: 100px;
+  object-fit:cover;
+  object-position: 20%;
+}
+.name-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin: 0px 3px;
+  font-weight: bold;
+}
+.friend-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  margin: 1px 0px;
+  color: grey;
+  display: inline-block;
+}
+.friend-button {
+  margin: 1px 3px;
+  margin-bottom: 3px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 7px;
+  padding: 5px 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cat-5 {
+  margin: 2px 4px;
+  height: 16px;
+  width: 16px;
+  margin-right: 0p
+}
+.cat-grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  column-gap: 10px;
+}
